@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-cormorant: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  /* Argi Jewels Signature Luxury Deep Emerald Teal (#083335) */
+  --color-brand-950: #031415;
+  --color-brand-900: #052224;
+  --color-brand-800: #083335;
+  --color-brand-700: #0c4346;
+  --color-brand-600: #125559;
+  --color-brand-500: #196d72;
+  --color-brand-400: #24888f;
+  --color-brand-100: #dceeed;
+  --color-brand-50: #f0f7f7;
+
+  --color-gold-50: #FBF7EE;
+  --color-gold-100: #F5ECCE;
+  --color-gold-200: #EBD99D;
+  --color-gold-300: #DFC168;
+  --color-gold-400: #D4AF37;
+  --color-gold-500: #C5A059;
+  --color-gold-600: #A8823E;
+  --color-gold-700: #7E602B;
+
+  --color-cream-50: #FFFFFF;
+  --color-cream-100: #FBF9F7;
+  --color-cream-200: #FAF7F2;
+  --color-cream-300: #F5F2EB;
+  --color-cream-400: #EAE5DB;
+
+  --color-charcoal-900: #052224;
+  --color-charcoal-800: #083335;
+  --color-charcoal-700: #1A1A1A;
+  --color-charcoal-600: #333333;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+h1, h2, h3, .font-display {
+  font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Custom luxury scrollbar matching #083335 brand palette */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FBF9F7;
+}
+::-webkit-scrollbar-thumb {
+  background: #083335;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0c4346;
+}
+
+/* Selection */
+::selection {
+  background: #083335;
+  color: #FFFFFF;
+}
+
+/* Subtle Shimmer for luxury badges */
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-shimmer {
+  animation: shimmer 2.5s infinite;
+}
