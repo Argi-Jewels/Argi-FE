@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { MessageCircle, X } from 'lucide-react';
 
 export const FloatingWhatsAppButton: React.FC = () => {
@@ -16,7 +16,7 @@ export const FloatingWhatsAppButton: React.FC = () => {
         <div className="hidden sm:flex items-center gap-2 mr-3 px-3.5 py-2 bg-[#083335] text-white text-xs rounded-xl shadow-xl border border-[#0c4346] animate-fadeIn">
           <span className="w-2 h-2 rounded-full bg-[#25D366] animate-ping" />
           <div className="text-left">
-            <p className="font-semibold text-[11px] text-[#DFC168]">Sarafa Bazar Atelier</p>
+            <p className="font-semibold text-[11px] text-[#DFC168]">Sarafa Bazar Address</p>
             <p className="text-[11px] text-stone-200">Chat with us on WhatsApp</p>
           </div>
           <button

@@ -90,7 +90,7 @@ export const AboutSection: React.FC = () => {
                 to="/custom-design"
                 className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-[#083335] hover:text-[#052224] pb-1 border-b-2 border-[#083335] transition-all"
               >
-                <span>Read more about our bespoke atelier</span>
+                <span>Read more about our bespoke address</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>

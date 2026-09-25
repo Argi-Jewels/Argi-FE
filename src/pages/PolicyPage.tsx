@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { 
   ShieldCheck, 
@@ -105,7 +105,7 @@ export const PolicyPage: React.FC<PolicyPageProps> = ({ forcedTab }) => {
                 <div>
                   <div className="text-xs font-bold text-[#083335] uppercase">Indore Local</div>
                   <div className="text-lg font-serif font-bold text-[#083335] mt-0.5">Same / Next Day</div>
-                  <div className="text-[11px] text-stone-500">Hand-delivered from Sarafa Atelier</div>
+                  <div className="text-[11px] text-stone-500">Hand-delivered from Sarafa Address</div>
                 </div>
                 <div>
                   <div className="text-xs font-bold text-[#083335] uppercase">Metro Cities</div>
@@ -177,12 +177,12 @@ export const PolicyPage: React.FC<PolicyPageProps> = ({ forcedTab }) => {
 
                 <h3 className="text-base font-bold text-[#083335]">2. Non-Returnable Customized Items</h3>
                 <p>
-                  Pieces customized with permanent laser engraving, monogram initial engravings, or made-to-order bespoke atelier requests (created under customer CAD approval) are non-returnable, but remain covered under our <strong>Lifetime Cleaning & Anti-Tarnish Warranty</strong>.
+                  Pieces customized with permanent laser engraving, monogram initial engravings, or made-to-order bespoke address requests (created under customer CAD approval) are non-returnable, but remain covered under our <strong>Lifetime Cleaning & Anti-Tarnish Warranty</strong>.
                 </p>
 
                 <h3 className="text-base font-bold text-[#083335]">3. Doorstep Pickup & Refund Timeline</h3>
                 <p>
-                  Once initiated from your <Link to="/account" className="text-[#083335] font-semibold underline">Customer Account</Link> or via WhatsApp (+91 92325 94228), our courier partner Blue Dart will schedule a secure doorstep pickup. Refunds are processed back to your original payment method (Bank Account, UPI, or Card) within 48 hours of quality inspection at our Indore atelier.
+                  Once initiated from your <Link to="/account" className="text-[#083335] font-semibold underline">Customer Account</Link> or via WhatsApp (+91 92325 94228), our courier partner Blue Dart will schedule a secure doorstep pickup. Refunds are processed back to your original payment method (Bank Account, UPI, or Card) within 48 hours of quality inspection at our Indore address.
                 </p>
               </div>
             </div>
@@ -327,7 +327,7 @@ export const PolicyPage: React.FC<PolicyPageProps> = ({ forcedTab }) => {
                 className="px-3.5 py-2 bg-[#083335] hover:bg-[#052224] text-white font-bold rounded-lg flex items-center gap-1.5 transition-colors"
               >
                 <Mail className="w-3.5 h-3.5 text-[#DFC168]" />
-                <span>Contact Atelier</span>
+                <span>Contact Address</span>
               </Link>
             </div>
           </div>

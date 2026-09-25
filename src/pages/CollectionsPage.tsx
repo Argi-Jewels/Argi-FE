@@ -104,7 +104,7 @@ export const CollectionsPage: React.FC = () => {
         {/* Breadcrumb & Header */}
         <div className="mb-8">
           <div className="text-xs uppercase tracking-widest text-[#083335] font-semibold mb-1">
-            Argi Atelier • Certified 925 Sterling Silver
+            Argi Address • Certified 925 Sterling Silver
           </div>
           <h1 className="font-serif text-3xl sm:text-4xl text-[#083335] font-medium">
             {selectedCategory === 'All' ? 'Ready Collections' : `${selectedCategory} Collection`}

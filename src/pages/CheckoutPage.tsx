@@ -227,7 +227,7 @@ export const CheckoutPage: React.FC = () => {
                     CERTIFICATE OF AUTHENTICITY & PURITY
                   </div>
                   <div className="text-[10px] uppercase tracking-widest text-[#A8823E]">
-                    Argi Jewels Atelier • Sarafa Bazar, Indore
+                    Argi Jewels Address • Sarafa Bazar, Indore
                   </div>
                 </div>
                 <div className="w-8 h-8 rounded-full border border-[#D4AF37] flex items-center justify-center text-[#D4AF37]">
@@ -240,7 +240,7 @@ export const CheckoutPage: React.FC = () => {
               </p>
 
               <div className="mt-4 pt-3 border-t border-[#EAE5DB] flex items-center justify-between text-[11px] text-stone-500">
-                <span>Certified By: Chief Silversmith, Indore Atelier</span>
+                <span>Certified By: Chief Silversmith, Indore Address</span>
                 <span className="font-mono">Security Stamp: BIS-925-INDORE-VERIFIED</span>
               </div>
             </div>

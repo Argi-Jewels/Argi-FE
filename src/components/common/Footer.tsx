@@ -87,7 +87,7 @@ export const Footer: React.FC = () => {
             <div className="pt-2 space-y-2 text-xs text-stone-300">
               <div className="flex items-center gap-2">
                 <MapPin className="w-3.5 h-3.5 text-[#DFC168]" />
-                <span>Atelier: Sarafa Bazar & Scheme 54, Vijay Nagar, Indore, MP 452010</span>
+                <span>Address: Sarafa Bazar & Scheme 54, Vijay Nagar, Indore, MP 452010</span>
               </div>
               <div className="flex items-center gap-2">
                 <PhoneCall className="w-3.5 h-3.5 text-[#25D366]" />
@@ -126,7 +126,7 @@ export const Footer: React.FC = () => {
               <li><Link to="/policies/shipping" className="hover:text-white transition-colors">PAN India Shipping Policy</Link></li>
               <li><Link to="/policies/returns" className="hover:text-white transition-colors">15-Day Return & Exchange</Link></li>
               <li><Link to="/hallmarking" className="hover:text-white transition-colors">BIS 925 Hallmarking Guide</Link></li>
-              <li><Link to="/contact" className="hover:text-white transition-colors">Contact Indore Atelier</Link></li>
+              <li><Link to="/contact" className="hover:text-white transition-colors">Contact Indore Address</Link></li>
             </ul>
           </div>
 

@@ -19,7 +19,7 @@ export const CustomWorkflowSection: React.FC = () => {
       stepNumber: '02',
       title: 'Finalize Details',
       subtitle: '3D CAD Preview & Finish Selection',
-      description: 'Our digital atelier in Indore renders a photorealistic 3D CAD visualization. Choose your metal finish (Pure Rhodium Silver, 18k Yellow Gold, or Rose Gold) and verify your exact ring or wrist size.',
+      description: 'Our digital address in Indore renders a photorealistic 3D CAD visualization. Choose your metal finish (Pure Rhodium Silver, 18k Yellow Gold, or Rose Gold) and verify your exact ring or wrist size.',
       icon: Sparkles,
       image: 'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80',
       highlights: ['Free 3D digital CAD render', '1-on-1 consultation via WhatsApp', 'Complimentary ring sizing assistance']

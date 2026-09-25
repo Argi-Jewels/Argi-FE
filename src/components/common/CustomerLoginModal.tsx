@@ -1,4 +1,4 @@
-﻿import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { 
   X, 
   ShieldCheck, 
@@ -353,7 +353,7 @@ export const CustomerLoginModal: React.FC<CustomerLoginModalProps> = ({
         {view === 'main' && (
           <div className="space-y-4">
             <p className="text-xs text-stone-500 leading-relaxed">
-              Sign in to manage your orders, access your custom bespoke atelier designs, and enjoy saved address delivery.
+              Sign in to manage your orders, access your custom bespoke address designs, and enjoy saved address delivery.
             </p>
 
             {/* Official Google Button Render Container (if GSI SDK loaded) */}

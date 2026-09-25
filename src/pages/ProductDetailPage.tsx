@@ -373,7 +373,7 @@ export const ProductDetailPage: React.FC = () => {
                 className="w-full py-2.5 px-4 rounded-lg bg-[#E8F8EE] border border-[#25D366]/40 text-[#0F682C] text-xs font-semibold flex items-center justify-center gap-2 hover:bg-[#D5F3DF] transition-colors"
               >
                 <MessageCircle className="w-4 h-4 text-[#25D366]" />
-                <span>Ask Indore Atelier on WhatsApp about this piece</span>
+                <span>Ask Indore Address on WhatsApp about this piece</span>
               </a>
             </div>
 
@@ -459,7 +459,7 @@ export const ProductDetailPage: React.FC = () => {
                 {openAccordions.shipping && (
                   <div className="mt-3 space-y-2 text-stone-600 leading-relaxed">
                     <p>
-                      Dispatched from our Indore atelier within 24-48 hours. Shipped via insured air express with Blue Dart & Delhivery. Real-time tracking link sent to your SMS & WhatsApp.
+                      Dispatched from our Indore address within 24-48 hours. Shipped via insured air express with Blue Dart & Delhivery. Real-time tracking link sent to your SMS & WhatsApp.
                     </p>
                     <p>
                       Each order arrives with our stamped <strong>925 Certificate of Authenticity</strong> detailing weight, purity, and artisan hallmarking code.

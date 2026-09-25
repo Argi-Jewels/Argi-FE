@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   MapPin, 
@@ -30,7 +30,7 @@ export const ContactPage: React.FC = () => {
     }
 
     setIsSubmitted(true);
-    showToast('Your message has been received by our Indore atelier!', 'gold');
+    showToast('Your message has been received by our Indore address!', 'gold');
   };
 
   const whatsappInquiryText = encodeURIComponent(
@@ -45,7 +45,7 @@ export const ContactPage: React.FC = () => {
         <nav className="text-xs text-stone-500 mb-6 flex items-center space-x-2">
           <Link to="/" className="hover:text-[#083335]">Home</Link>
           <span>/</span>
-          <span className="text-[#083335] font-semibold">Contact & Atelier</span>
+          <span className="text-[#083335] font-semibold">Contact & Address</span>
         </nav>
 
         {/* Page Header */}
@@ -54,7 +54,7 @@ export const ContactPage: React.FC = () => {
             <Sparkles className="w-3.5 h-3.5 text-[#DFC168]" /> Central India Silversmithing
           </div>
           <h1 className="font-serif text-3xl sm:text-4xl text-[#083335] font-medium">
-            Contact Argi Jewels Atelier
+            Contact Argi Jewels Address
           </h1>
           <p className="text-xs sm:text-sm text-stone-600 mt-2 leading-relaxed">
             Whether you have questions about our 925 sterling silver purity, need ring sizing advice, or wish to commission a bespoke design, our master artisans in Indore are here to assist you.
@@ -89,7 +89,7 @@ export const ContactPage: React.FC = () => {
               </a>
             </div>
 
-            {/* Atelier Addresses */}
+            {/* Workshop & Store Addresses */}
             <div className="p-6 bg-white rounded-3xl border border-[#E5E0DC] shadow-sm space-y-4">
               <div className="flex items-start gap-3">
                 <div className="w-10 h-10 rounded-xl bg-[#FAF7F2] text-[#083335] flex items-center justify-center border border-[#E5E0DC] shrink-0">
@@ -162,7 +162,7 @@ export const ContactPage: React.FC = () => {
                     <CheckCircle2 className="w-8 h-8" />
                   </div>
                   <h3 className="font-serif text-2xl font-bold text-[#083335]">
-                    Message Dispatched to Indore Atelier!
+                    Message Dispatched to Indore Address!
                   </h3>
                   <p className="text-xs text-stone-600 max-w-md mx-auto leading-relaxed">
                     Thank you, <strong>{name}</strong>. Our concierge silversmith will review your inquiry and get back to you via WhatsApp / Phone at <strong>+91 {phone}</strong> shortly.
@@ -277,7 +277,7 @@ export const ContactPage: React.FC = () => {
                     className="w-full py-3.5 bg-[#083335] hover:bg-[#052224] text-white font-bold text-xs uppercase tracking-widest rounded-xl transition-all flex items-center justify-center gap-2 shadow-md border border-[#0c4346]"
                   >
                     <Send className="w-4 h-4 text-[#DFC168]" />
-                    <span>Send Inquiry to Atelier</span>
+                    <span>Send Inquiry to Address</span>
                   </button>
 
                   <div className="pt-2 text-center text-[11px] text-stone-400 flex items-center justify-center gap-1.5">

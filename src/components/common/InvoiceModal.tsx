@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { X, Printer, Download, ShieldCheck, CheckCircle2 } from 'lucide-react';
 import { Order } from '../../types';
 import { BrandLogo } from './BrandLogo';
@@ -72,7 +72,7 @@ export const InvoiceModal: React.FC<InvoiceModalProps> = ({ isOpen, onClose, ord
             <div className="space-y-1">
               <BrandLogo size="md" />
               <p className="text-[10px] text-stone-500 tracking-wider uppercase font-medium">
-                Atelier of Bespoke 925 Sterling Silver Jewellery
+                Address of Bespoke 925 Sterling Silver Jewellery
               </p>
             </div>
             <div className="text-left sm:text-right space-y-0.5">
@@ -90,7 +90,7 @@ export const InvoiceModal: React.FC<InvoiceModalProps> = ({ isOpen, onClose, ord
             {/* Seller Column */}
             <div className="space-y-1 text-xs">
               <div className="font-bold text-[#083335] uppercase tracking-wider text-[11px]">Sold By (Supplier):</div>
-              <div className="font-serif text-sm font-bold text-[#083335]">ARGI JEWELS ATELIER PRIVATE LIMITED</div>
+              <div className="font-serif text-sm font-bold text-[#083335]">ARGI JEWELS ADDRESS PRIVATE LIMITED</div>
               <p className="text-stone-600 leading-relaxed">
                 Registered Workshop: 42, Sarafa Bazar, Indore, Madhya Pradesh - 452002<br />
                 Experience Concierge: Scheme No. 54, Vijay Nagar, Indore - 452010
@@ -281,7 +281,7 @@ export const InvoiceModal: React.FC<InvoiceModalProps> = ({ isOpen, onClose, ord
 
               {/* Signatory */}
               <div className="pt-4 text-right space-y-1">
-                <div className="text-[10px] text-stone-400">For ARGI JEWELS ATELIER PRIVATE LIMITED</div>
+                <div className="text-[10px] text-stone-400">For ARGI JEWELS ADDRESS PRIVATE LIMITED</div>
                 <div className="font-serif font-bold text-xs text-[#083335] pt-3">Chief Silversmith & Master Jeweler</div>
                 <div className="text-[10px] text-stone-500 italic">Authorised Signatory • Sarafa Bazar, Indore</div>
               </div>

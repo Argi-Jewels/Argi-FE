@@ -234,7 +234,7 @@ export const CustomDesignPage: React.FC = () => {
                   className="w-full py-3 bg-[#25D366] hover:bg-[#1EBE5D] text-white text-xs font-bold uppercase tracking-wider rounded-lg flex items-center justify-center gap-2 shadow transition-colors"
                 >
                   <MessageCircle className="w-4 h-4" />
-                  <span>Open WhatsApp 1-on-1 Atelier Chat</span>
+                  <span>Open WhatsApp 1-on-1 Address Chat</span>
                 </a>
               </div>
 
@@ -614,7 +614,7 @@ export const CustomDesignPage: React.FC = () => {
                       className="px-8 py-3.5 bg-[#083335] hover:bg-[#052224] text-white text-xs uppercase tracking-widest font-bold rounded-lg flex items-center gap-2 shadow-md transition-all border border-[#0c4346]"
                     >
                       <Sparkles className="w-4 h-4 text-[#DFC168]" />
-                      <span>{isSubmitting ? 'Submitting to Atelier...' : 'Submit Bespoke Inquiry'}</span>
+                      <span>{isSubmitting ? 'Submitting to Address...' : 'Submit Bespoke Inquiry'}</span>
                     </button>
                   </div>
 

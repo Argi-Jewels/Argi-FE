@@ -421,7 +421,7 @@ export const AccountPage: React.FC = () => {
 
                         {req.notes && (
                           <div className="p-2.5 bg-amber-50/60 border border-amber-200/60 rounded-lg text-amber-900 text-[11px]">
-                            <strong>Atelier Note:</strong> {req.notes}
+                            <strong>Address Note:</strong> {req.notes}
                           </div>
                         )}
                       </div>
