@@ -115,6 +115,16 @@ export interface Order {
   giftMessage?: string;
 }
 
+export interface AdminCoupon {
+  code: string;
+  type: 'percent' | 'flat';
+  value: number;
+  minOrderValue?: number;
+  active: boolean;
+  expiryDate?: string;
+  usageCount: number;
+}
+
 export interface CustomerReview {
   id: string;
   productId: string;
